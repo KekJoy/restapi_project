@@ -11,5 +11,3 @@ app = FastAPI()
 
 app.include_router(products_router)
 app.include_router(users_router)
-
-# todo add .env support
