@@ -28,7 +28,6 @@ class UserResponse(UserBase):
     id: int
 
 
-# Модель данных товара с ID
 class ProductResponse(ProductBase):
     """Модель данных товара с ID"""
     id: int
